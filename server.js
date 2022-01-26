@@ -6,8 +6,7 @@ const serv = http.createServer((req,res)=>{
     console.log('Request made');
 
     res.setHeader('Content-Type','text/html');
-    // res.write('HELLO');
-    // res.end();
+    
 
     let path = './HTML/';
 
